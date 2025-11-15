@@ -72,18 +72,6 @@ sophia-web/
 └── public/             # Static assets
 ```
 
-## 🎨 Features
-
-- ✅ Responsive design (mobile-first)
-- ✅ Dark mode support
-- ✅ SEO optimized with metadata
-- ✅ Performance optimized (Lighthouse score focus)
-- ✅ Accessibility compliant
-- ✅ Type-safe with TypeScript
-- ✅ Modern UI with smooth animations
-- ✅ Security headers configured
-- ✅ Analytics integration
-
 ## 🔗 Links
 
 - **Website**: [sophialabs.in](https://sophialabs.in)
