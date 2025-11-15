@@ -1,0 +1,58 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Sophialabs",
+  "url": "https://sophialabs.in",
+  "logo": "https://sophialabs.in/logo.png",
+  "description": "Sophialabs designs, innovates, and builds transformative solutions and experiences to solve real-world problems.",
+  "sameAs": [
+    "https://twitter.com/sophialabs",
+    "https://linkedin.com/company/sophialabs",
+    "https://github.com/sophialabs"
+  ],
+  "contact": {
+    "@type": "ContactPoint",
+    "telephone": "+91-XXXXX-XXXXX",
+    "contactType": "Customer Service",
+    "email": "hello@sophialabs.in"
+  },
+  "foundingDate": "2024",
+  "founders": [
+    {
+      "@type": "Person",
+      "name": "Sophialabs Team"
+    }
+  ],
+  "knows": [
+    {
+      "@type": "Thing",
+      "name": "Design"
+    },
+    {
+      "@type": "Thing",
+      "name": "Innovation"
+    },
+    {
+      "@type": "Thing",
+      "name": "Digital Marketing"
+    },
+    {
+      "@type": "Thing",
+      "name": "News Aggregation"
+    }
+  ],
+  "subOrganization": [
+    {
+      "@type": "Organization",
+      "name": "News Wing",
+      "url": "https://news.sophialabs.in",
+      "description": "Daily curated top news with AI summaries and podcasts"
+    },
+    {
+      "@type": "Organization",
+      "name": "Digital Ads Wing",
+      "url": "https://ads.sophialabs.in",
+      "description": "Google Ads education and comparison platform"
+    }
+  ]
+}

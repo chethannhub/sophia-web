@@ -1,36 +1,103 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Sophia
 
-## Getting Started
+Official website for Sophialabs - Design, Innovate, Build Solutions.
 
-First, run the development server:
+## 🚀 About
+
+Sophialabs designs, innovates, and builds transformative solutions for real-world problems. This website showcases our two main platforms:
+
+- **News Wing**: Global news aggregation with AI-powered summaries and audio podcasts
+- **Digital Ads Wing**: Comprehensive digital marketing education and Google Ads insights
+
+## 🛠️ Tech Stack
+
+- **Framework**: Next.js 16 (App Router)
+- **Styling**: Tailwind CSS
+- **UI Components**: Radix UI + shadcn/ui
+- **Icons**: Lucide React
+- **Fonts**: Geist Sans & Geist Mono
+- **Analytics**: Vercel Analytics
+- **Language**: TypeScript
+
+## 📦 Getting Started
+
+### Prerequisites
+
+- Node.js 18+ 
+- npm, yarn, pnpm, or bun
+
+### Installation
 
 ```bash
+# Clone the repository
+git clone https://github.com/sophialabs/sophia-web.git
+cd sophia-web
+
+# Install dependencies
+npm install
+
+# Run the development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) to view the site.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 📝 Available Scripts
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+npm run dev          # Start development server with Turbopack
+npm run build        # Build for production
+npm start            # Start production server
+npm run lint         # Run ESLint
+npm run analyze      # Analyze bundle size
+```
 
-## Learn More
+## 🏗️ Project Structure
 
-To learn more about Next.js, take a look at the following resources:
+```
+sophia-web/
+├── app/                  # Next.js App Router pages
+│   ├── about/           # About page
+│   ├── contact/         # Contact page
+│   ├── news/            # News pages
+│   ├── ads/             # Digital ads pages
+│   ├── layout.tsx       # Root layout
+│   └── page.tsx         # Homepage
+├── components/          # React components
+│   ├── ui/             # shadcn/ui components
+│   ├── header.tsx      # Site header
+│   ├── footer.tsx      # Site footer
+│   └── ...
+├── lib/                # Utility functions
+└── public/             # Static assets
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🎨 Features
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- ✅ Responsive design (mobile-first)
+- ✅ Dark mode support
+- ✅ SEO optimized with metadata
+- ✅ Performance optimized (Lighthouse score focus)
+- ✅ Accessibility compliant
+- ✅ Type-safe with TypeScript
+- ✅ Modern UI with smooth animations
+- ✅ Security headers configured
+- ✅ Analytics integration
 
-## Deploy on Vercel
+## 🔗 Links
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- **Website**: [sophialabs.in](https://sophialabs.in)
+- **News Platform**: [news.sophialabs.in](https://news.sophialabs.in)
+- **Ads Platform**: [ads.sophialabs.in](https://ads.sophialabs.in)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 📄 License
+
+Copyright © 2025 Sophialabs. All rights reserved.
+
+## 🤝 Contributing
+
+This is a private project. For inquiries, contact us through our website.
+
+---
+
+Built with ❤️ by Sophialabs

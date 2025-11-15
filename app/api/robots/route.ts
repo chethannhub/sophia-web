@@ -1,0 +1,37 @@
+export async function GET() {
+  const robots = `# Sophialabs SEO Optimization
+# Allow all search engines to crawl the site
+
+User-agent: *
+Allow: /
+Allow: /news/
+Allow: /ads/
+Disallow: /admin/
+Disallow: /.next/
+Disallow: /api/internal/
+
+# Specific rules for search engines
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Slurp
+Allow: /
+
+# Crawl delay for respectful crawling
+User-agent: *
+Crawl-delay: 1
+
+# Sitemap location
+Sitemap: https://sophialabs.in/sitemap.xml
+Sitemap: https://news.sophialabs.in/sitemap.xml
+Sitemap: https://ads.sophialabs.in/sitemap.xml`
+
+  return new Response(robots, {
+    headers: {
+      'Content-Type': 'text/plain',
+    },
+  })
+}
